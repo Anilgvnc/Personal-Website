@@ -1,0 +1,28 @@
+.App {
+    display: flex;
+}
+
+.card {
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardTextContainer {
+    min-width: 256px;
+    min-height: 32px;
+    padding: 8px;
+    margin: 16px;
+    background-color: #282c34;
+    border-radius: 6px;
+}
+
+.cardTextSocial {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    margin-top: 10px;
+}

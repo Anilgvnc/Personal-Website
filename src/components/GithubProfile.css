@@ -1,0 +1,35 @@
+.App {
+    display: flex;
+}
+
+.card {
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.profileCardTextContainer {
+    padding: 8px;
+    margin: 8px;
+    background-color: #282c34;
+    border-radius: 6px;
+}
+
+.cardText {
+    color: white;
+}
+
+.cardTextSocial {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    margin-top: 10px;
+}
