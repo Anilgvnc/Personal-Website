@@ -18,7 +18,7 @@ function GithubProfile() {
 
 
     useEffect(() => {
-        fetch("https://api.github.com/users/Anilgvnc")
+        fetch('https://api.github.com/users/Anilgvnc')
             .then((res) => res.json())
             .then(
                 (result) => {

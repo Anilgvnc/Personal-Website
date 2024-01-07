@@ -8,7 +8,6 @@ function GithubProjects() {
 
     const [repoData, setRepoData] = useState();
 
-
     useEffect(() => {
         fetch("https://api.github.com/users/Anilgvnc/repos")
             .then((res) => res.json())
