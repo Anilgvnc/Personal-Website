@@ -1,5 +1,7 @@
 .home {
-    height: 100vh;
+    padding: 64px;
+    height: auto;
+    width: auto;
     text-align: center;
     background-color: #282c34;
     display: flex;
@@ -9,6 +11,8 @@
 
 .userCard {
     width: 512px;
+    height: auto;
+    margin-bottom: 32px;
 }
 
 .list-group-flush {
@@ -35,7 +39,7 @@ img {
 
 .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }

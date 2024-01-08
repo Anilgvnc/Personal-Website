@@ -4,7 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Router.css';
 
 const Router = () => {
     return (
@@ -26,7 +27,7 @@ const Router = () => {
                                     <NavDropdown.Item>
                                         <Link to="/">Home</Link>
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item>
+                                    <NavDropdown.Item className="link">
                                         <Link to="/Accounts">Accounts</Link>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
