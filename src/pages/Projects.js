@@ -7,7 +7,7 @@ import GithubProjects from '../components/GithubProjects';
 function Projects() {
 
     useEffect(() => {
-        document.title = "Projects";
+        document.title = "Kemal Anıl Güvenç | Projects";
     }, [])
 
     return (

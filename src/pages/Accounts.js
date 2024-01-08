@@ -7,7 +7,7 @@ import GithubProfile from '../components/GithubProfile';
 function Accounts() {
 
     useEffect(() => {
-        document.title = "Social Media Accounts";
+        document.title = "Kemal Anıl Güvenç | Social Media Accounts";
     }, [])
 
     return (
