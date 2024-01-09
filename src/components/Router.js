@@ -1,10 +1,12 @@
 import { Outlet, Link } from "react-router-dom";
+import { HiMiniCommandLine } from "react-icons/hi2";
 //NavBar
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './Router.css';
 
 const Router = () => {
@@ -14,7 +16,7 @@ const Router = () => {
                 <Navbar variant="dark" bg="dark" expand="lg">
                     <Container fluid>
                         <Navbar.Brand>
-                            <Link to="/">Kemal Anıl Güvenç</Link>
+                            <Link to="/"><HiMiniCommandLine /> Kemal Anıl Güvenç</Link>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbar-dark-example" />
                         <Navbar.Collapse id="navbar-dark-example">
@@ -24,14 +26,14 @@ const Router = () => {
                                     title="Menu"
                                     menuVariant="dark"
                                 >
-                                    <NavDropdown.Item href="/">
-                                        Home
+                                    <NavDropdown.Item>
+                                        <Link to="/">Home</Link>
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item href="/Accounts">
-                                        Accounts
+                                    <NavDropdown.Item>
+                                        <Link to="/Accounts">Accounts</Link>
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item href="/Projects">
-                                        Projects
+                                    <NavDropdown.Item>
+                                        <Link to="/Projects">Projects</Link>
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>

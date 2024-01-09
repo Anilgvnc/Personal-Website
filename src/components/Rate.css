@@ -10,3 +10,8 @@ input[type=radio] {
 .star {
     cursor: pointer;
 }
+
+.routeLink {
+    padding: 4px;
+    padding-right: 10px;
+}
