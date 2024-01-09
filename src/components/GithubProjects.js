@@ -1,18 +1,21 @@
 import { useEffect, useState } from 'react';
-import Card from 'react-bootstrap/Card';
+import Loading from './Loading';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./GithubProjects.css"
 
 function GithubProjects() {
 
+    const [spinner, setSpinner] = useState(false);
     const [repoData, setRepoData] = useState();
 
     useEffect(() => {
+        setSpinner(true);
         fetch("https://api.github.com/users/Anilgvnc/repos")
             .then((res) => res.json())
             .then(
                 (result) => {
+                    setSpinner(false);
                     console.log(36, result);
                     const list = result.map((item) => (
                         <div className='cardTextContainer'>
@@ -31,11 +34,13 @@ function GithubProjects() {
 
     return (
         <div className='App'>
-            <Card className='card'>
-                <Card.Body>
-                    <Card.Text> {repoData} </Card.Text>
-                </Card.Body>
-            </Card>
+            {spinner === true ?
+                <Loading />
+                :
+                <div className='card'>
+                    <p> {repoData} </p>
+                </div>
+            }
         </div>
     );
 }

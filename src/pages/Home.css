@@ -18,6 +18,10 @@
     border-radius: 8px;
 }
 
+.bioText {
+    font-weight: 500;
+}
+
 .textContainer {
     background-color: #282c34;
     width: 100%;

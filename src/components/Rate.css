@@ -1,0 +1,12 @@
+.ratingContainer {
+    padding: 8px;
+    margin: 16px;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.star {
+    cursor: pointer;
+}

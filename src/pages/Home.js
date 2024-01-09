@@ -23,17 +23,18 @@ function Home() {
                             </div>
                             <div>
                                 <h1>Kemal Anıl Güvenç</h1>
-                                <p>
-                                    I am an undergraduate student computer engineering student at Doğuş University.
-                                    I am working on computer applications, Full stack web development with ASP.Net and Android (Java, Kotlin), cross platform(React Native) mobile applications.
+                                <p className='bioText'>
+                                    I am an undergraduate computer engineering student at Doğuş University.
+                                    <br />
+                                    I am working on computer applications, Full stack web development and Android, cross platform mobile applications.
                                     <br />
                                     Istanbul/Turkey
                                 </p>
                             </div>
                         </div>
                         <div className='container'>
-                            <p className='textContainer'>Software Developer | C++ / C#</p>
-                            <p className='textContainer'>Mobile Application Developer | React Native / Kotlin</p>
+                            <p className='textContainer'>Software Developer | C++ / C# / Java</p>
+                            <p className='textContainer'>Mobile Application Developer | React Native / Kotlin / Java</p>
                             <p className='textContainer'>Full Stack Web Developer | React.js / HTML,CSS,JS / MSSQL / Asp.net</p>
                         </div>
                         <div className='row'>

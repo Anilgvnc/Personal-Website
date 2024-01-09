@@ -8,3 +8,9 @@ img {
     height: 384px;
     border-radius: 32px;
 }
+
+.slider-text {
+    color: #808080;
+    opacity: 0.8;
+    font-weight: 800;
+}

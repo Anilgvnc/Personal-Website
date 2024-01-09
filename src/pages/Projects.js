@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './Projects.css';
 import GithubProjects from '../components/GithubProjects';
+import Rate from '../components/Rate';
 
 function Projects() {
 
@@ -19,6 +20,10 @@ function Projects() {
             </header>
             <div>
                 <GithubProjects />
+            </div>
+            <div>
+                <p style={{ color: 'white' }}>Rate my projects</p>
+                <Rate />
             </div>
         </div>
     );

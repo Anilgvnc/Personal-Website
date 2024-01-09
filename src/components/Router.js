@@ -24,14 +24,14 @@ const Router = () => {
                                     title="Menu"
                                     menuVariant="dark"
                                 >
-                                    <NavDropdown.Item>
-                                        <Link to="/">Home</Link>
+                                    <NavDropdown.Item href="/">
+                                        Home
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className="link">
-                                        <Link to="/Accounts">Accounts</Link>
+                                    <NavDropdown.Item href="/Accounts">
+                                        Accounts
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item>
-                                        <Link to="/Projects">Projects</Link>
+                                    <NavDropdown.Item href="/Projects">
+                                        Projects
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
