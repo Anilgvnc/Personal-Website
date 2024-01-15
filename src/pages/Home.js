@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { FaGithub, FaInstagram, FaTwitter, FaStackOverflow, FaLinkedin, FaHackerrank } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './Home.css';
@@ -42,6 +43,10 @@ function Home() {
                             <a className='linkContainer' href="https://github.com/Anilgvnc"><FaGithub /> GitHub</a>
                             <a className='linkContainer' href="https://stackoverflow.com/users/22662866/anilgvnc"><FaStackOverflow /> Stack Overflow</a>
                             <a className='linkContainer' href='https://www.hackerrank.com/profile/anilgvnc'><FaHackerrank /> HackerRank</a>
+                            <a className='linkContainer' href='https://leetcode.com/guvencgrup2/'><SiLeetcode /> Leetcode</a>
+
+                        </div>
+                        <div className='row'>
                             <a className='linkContainer' href="https://www.instagram.com/anilgvnc/"><FaInstagram /> Instagram</a>
                             <a className='linkContainer' href="https://twitter.com/Anilgvnc"><FaTwitter /> Twitter</a>
                         </div>
