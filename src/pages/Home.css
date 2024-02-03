@@ -18,6 +18,13 @@
     border-radius: 8px;
 }
 
+.userContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .bioText {
     font-weight: 500;
 }
@@ -40,6 +47,7 @@
 }
 
 .avatarImg {
+    margin-right: 16px;
     max-width: 128px;
     max-height: 128px;
     border-radius: 128px;

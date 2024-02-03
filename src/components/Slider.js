@@ -26,11 +26,22 @@ function Slider() {
                 </a>
             </Carousel.Item>
             <Carousel.Item>
-                <Image src='https://media.licdn.com/dms/image/D4D2DAQFo52yCwgqzDA/profile-treasury-image-shrink_800_800/0/1701967872330?e=1705960800&v=beta&t=afzXEqwlI0Jwx9NU611ZDad83xVMQ_ZvarITkOIueUo' text="Certificate" />
-                <Carousel.Caption>
-                    <h3 className='slider-text'>Certificate</h3>
-                    <p className='slider-text'>Engineering Career Summit '23</p>
-                </Carousel.Caption>
+                <a href='https://academy.patika.dev/tr/certificates/7859d211'>
+                    <Image src='https://patika-prod.s3.eu-central-1.amazonaws.com/certificates/7859d211' text="Certificate" />
+                    <Carousel.Caption>
+                        <h3 className='slider-text'>Certificate</h3>
+                        <p className='slider-text'>Beginner Web Programming Path - Patika.dev</p>
+                    </Carousel.Caption>
+                </a>
+            </Carousel.Item>
+            <Carousel.Item>
+                <a href='https://academy.patika.dev/tr/certificates/9123103b'>
+                    <Image src='https://patika-prod.s3.eu-central-1.amazonaws.com/certificates/9123103b' text="Certificate" />
+                    <Carousel.Caption>
+                        <h3 className='slider-text'>Certificate</h3>
+                        <p className='slider-text'>Career Paths For Software Developers - Patika.dev</p>
+                    </Carousel.Caption>
+                </a>
             </Carousel.Item>
             <Carousel.Item >
                 <a href='https://www.dogus.edu.tr/'>

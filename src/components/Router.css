@@ -1,0 +1,29 @@
+.navContainer {
+    background: #282c34;
+}
+
+.navBar {
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    background: #191b20;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.navHeader {
+    padding: 8px 16px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.navItems {
+    padding: 4px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

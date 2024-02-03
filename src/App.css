@@ -12,3 +12,20 @@ a:hover {
     color: aquamarine;
     text-decoration: none;
 }
+
+::-webkit-scrollbar,
+html::-webkit-scrollbar-thumb:hover {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb,
+html::-webkit-scrollbar-thumb:hover {
+    background: darkslategray;
+    border-radius: 4px;
+    border: 2px solid #313131;
+}
+
+::-webkit-scrollbar-track,
+html::-webkit-scrollbar-thumb:hover {
+    background: #282c34;
+}
