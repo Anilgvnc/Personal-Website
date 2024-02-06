@@ -1,10 +1,9 @@
 import { useEffect } from 'react';
 import { FaGithub, FaInstagram, FaTwitter, FaStackOverflow, FaLinkedin, FaHackerrank } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Typewriter from 'typewriter-effect';
 
 import './Home.css';
-import Slider from '../components/Slider';
 
 function Home() {
     useEffect(() => {
@@ -12,45 +11,24 @@ function Home() {
     }, [])
     return (
         <div className="home">
-            <div className='container'>
-                <div>
-                    <div className='userCard'>
-                        <div className='userContainer'>
-                            <img alt='Kemal Anıl Güvenç'
-                                className='avatarImg'
-                                src='https://media.licdn.com/dms/image/D4D03AQH1Y0Zwv0dgNg/profile-displayphoto-shrink_800_800/0/1690364002577?e=1710374400&v=beta&t=1H__J_fN6LmXuOUSZxLnDbU8Or4S8q2cKAWNpAoqbhY'
-                            />
-                            <h1>Kemal Anıl Güvenç</h1>
-                        </div>
-                        <div className='container'>
-                            <p className='bioText'>
-                                I am an undergraduate computer engineering student at Doğuş University.
-                                <br />
-                                I am working on computer applications, Full stack web development and Android, cross platform mobile applications.
-                                <br />
-                                Istanbul/Turkey
-                            </p>
-                            <p className='textContainer'>Software Developer / Mobile Application Developer / Full Stack Web Developer</p>
-                            <p className='textContainer'> Languages | C/C++, C#, Java, Kotlin, Python, MSSQL, Asp.net, HTML/CSS, Javascript, Dart</p>
-                            <p className='textContainer'> Frameworks| React.js, React Native, Node.js, Flutter</p>
-                        </div>
-                        <div className='row'>
-                            <a className='linkContainer' href="https://www.linkedin.com/in/kemal-anil-guvenc/"><FaLinkedin /> LinkedIn</a>
-                            <a className='linkContainer' href="https://github.com/Anilgvnc"><FaGithub /> GitHub</a>
-                            <a className='linkContainer' href="https://stackoverflow.com/users/22662866/anilgvnc"><FaStackOverflow /> Stack Overflow</a>
-                            <a className='linkContainer' href='https://www.hackerrank.com/profile/anilgvnc'><FaHackerrank /> HackerRank</a>
-                            <a className='linkContainer' href='https://leetcode.com/guvencgrup2/'><SiLeetcode /> Leetcode</a>
-
-                        </div>
-                        <div className='row'>
-                            <a className='linkContainer' href="https://www.instagram.com/anilgvnc/"><FaInstagram /> Instagram</a>
-                            <a className='linkContainer' href="https://twitter.com/Anilgvnc"><FaTwitter /> Twitter</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <Slider />
-                </div>
+            <div className='homeHeader'>
+                <h1>Kemal Anıl Güvenç</h1>
+            </div>
+            <div className='aboutWriter'>
+                <Typewriter options={{
+                    strings: ['Software Developer', ' Mobile Application Developer', 'Full Stack Web Developer'],
+                    autoStart: true,
+                    loop: true,
+                }} />
+            </div>
+            <div className='rowLink'>
+                <a href="https://www.linkedin.com/in/kemal-anil-guvenc/"><FaLinkedin /></a>
+                <a href="https://github.com/Anilgvnc"><FaGithub /></a>
+                <a href="https://stackoverflow.com/users/22662866/anilgvnc"><FaStackOverflow /></a>
+                <a href='https://www.hackerrank.com/profile/anilgvnc'><FaHackerrank /></a>
+                <a href='https://leetcode.com/guvencgrup2/'><SiLeetcode /></a>
+                <a href="https://www.instagram.com/anilgvnc/"><FaInstagram /> </a>
+                <a href="https://twitter.com/Anilgvnc"><FaTwitter /></a>
             </div>
         </div>
     );

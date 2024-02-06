@@ -3,16 +3,22 @@
 }
 
 .navBar {
-    padding: 4px;
+    padding: 4px 24px;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     background: #191b20;
     border-bottom-right-radius: 24px;
     border-bottom-left-radius: 24px;
 }
 
+.navList {
+    display: flex;
+    flex-direction: row;
+}
+
 .navHeader {
-    padding: 8px 16px;
+    padding: 4px 8px;
     margin: 8px;
     display: flex;
     justify-content: center;
@@ -21,8 +27,6 @@
 }
 
 .navItems {
-    padding: 4px;
-    margin: 4px;
     display: flex;
     justify-content: center;
     align-items: center;

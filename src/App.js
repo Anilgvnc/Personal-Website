@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import Accounts from "./pages/Accounts";
 import Projects from "./pages/Projects";
 import Router from "./components/Router";
+import Contact from "./pages/Contact";
+import AboutMe from "./pages/AboutMe";
 
 function App() {
   return (
@@ -13,8 +15,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Router />}>
           <Route index element={<Home />} />
+          <Route path="AboutMe" element={<AboutMe />} />
           <Route path="Accounts" element={<Accounts />} />
           <Route path="Projects" element={<Projects />} />
+          <Route path="Contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>

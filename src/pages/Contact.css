@@ -1,0 +1,18 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: darkslategray;
+    padding: 24px;
+    border-radius: 16px;
+    color: white;
+}
+
+.contactHeader {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,73 @@
+.aboutPage {
+    background-color: #282c34;
+    padding: 64px;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.userCard {
+    padding: 32px;
+    background-color: darkslategray;
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 12px;
+}
+
+.bioText {
+    font-weight: 500;
+    width: 100%;
+    padding: 12px;
+    margin: 4px;
+}
+
+.textContainer {
+    background-color: #191b20;
+    width: 100%;
+    padding: 12px;
+    margin: 4px;
+    border-radius: 6px;
+}
+
+.linkContainer {
+    width: fit-content;
+    padding: 8px;
+    margin: 12px;
+    background-color: #191b20;
+    border-radius: 6px;
+}
+
+.avatarImg {
+    margin-right: 16px;
+    max-width: 256px;
+    max-height: 256px;
+    border-radius: 32px;
+}
+
+.container {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

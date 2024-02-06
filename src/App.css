@@ -1,3 +1,8 @@
+a {
+    padding: 8px;
+    margin: 8px;
+}
+
 a:link {
     color: white;
     text-decoration: none;
