@@ -10,7 +10,7 @@ function Home() {
         document.title = "Kemal Anıl Güvenç | Home";
     }, [])
     return (
-        <div className="home">
+        <div className="App">
             <div className='homeHeader'>
                 <h1>Kemal Anıl Güvenç</h1>
             </div>

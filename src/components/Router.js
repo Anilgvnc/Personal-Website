@@ -1,7 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import { HiMiniCommandLine } from "react-icons/hi2";
 //NavBar
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './Router.css';
 

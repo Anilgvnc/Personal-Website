@@ -5,12 +5,13 @@ import { SiLeetcode } from "react-icons/si";
 import './AboutMe.css';
 import Slider from '../components/Slider';
 
+
 function AboutMe() {
     useEffect(() => {
         document.title = "Kemal Anıl Güvenç | About Me";
     }, [])
     return (
-        <div className="aboutPage">
+        <div className="App">
             <div className='userCard'>
                 <div className='userContainer'>
                     <img alt='Kemal Anıl Güvenç'
@@ -42,7 +43,9 @@ function AboutMe() {
                     <a className='linkContainer' href="https://www.instagram.com/anilgvnc/"><FaInstagram /> Instagram</a>
                     <a className='linkContainer' href="https://twitter.com/Anilgvnc"><FaTwitter /> Twitter</a>
                 </div>
-                <Slider />
+                <div className='slider' >
+                    <Slider />
+                </div>
             </div>
         </div>
     );
