@@ -1,9 +1,8 @@
 .userCard {
-    padding: 32px;
+    padding: 24px;
     background-color: darkslategray;
     border-radius: 8px;
-    width: fit-content;
-    height: fit-content;
+    max-width: 44rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,14 +20,15 @@
 
 .bioText {
     font-weight: 500;
-    width: 100%;
+    max-width: 20rem;
     padding: 12px;
     margin: 4px;
 }
 
 .textContainer {
+    display: flex;
+    justify-content: flex-start;
     background-color: #191b20;
-    width: 100%;
     padding: 12px;
     margin: 4px;
     border-radius: 6px;
@@ -43,9 +43,10 @@
 }
 
 .avatarImg {
+    display: flex;
     margin-right: 16px;
-    max-width: 256px;
-    max-height: 256px;
+    max-width: 10rem;
+    max-height: 10rem;
     border-radius: 32px;
 }
 
@@ -58,6 +59,6 @@
 }
 
 .slider {
-    max-width: '512px';
-    max-height: '384px';
+    max-width: 24rem;
+    max-height: 4rem;
 }

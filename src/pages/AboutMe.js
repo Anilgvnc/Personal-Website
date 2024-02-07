@@ -44,8 +44,8 @@ function AboutMe() {
                     <a className='linkContainer' href="https://twitter.com/Anilgvnc"><FaTwitter /> Twitter</a>
                 </div>
                 <div className='slider' >
-                    <Slider />
                 </div>
+                <Slider />
             </div>
         </div>
     );
