@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './Projects.css';
 import GithubProjects from '../components/GithubProjects';

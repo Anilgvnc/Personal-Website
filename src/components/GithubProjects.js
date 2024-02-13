@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import Loading from './Loading';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./GithubProjects.css"
 
