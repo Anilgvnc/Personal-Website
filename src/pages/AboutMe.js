@@ -16,7 +16,7 @@ function AboutMe() {
                 <div className='userContainer'>
                     <img alt='Kemal Anıl Güvenç'
                         className='avatarImg'
-                        src='https://media.licdn.com/dms/image/D4D03AQH1Y0Zwv0dgNg/profile-displayphoto-shrink_800_800/0/1690364002577?e=1710374400&v=beta&t=1H__J_fN6LmXuOUSZxLnDbU8Or4S8q2cKAWNpAoqbhY'
+                        src='https://media.licdn.com/dms/image/D4D03AQH1Y0Zwv0dgNg/profile-displayphoto-shrink_800_800/0/1690364002577?e=2147483647&v=beta&t=mtAWmbLu4DwREOakJw3rTtXqEpDRcHWHs2p7qwF6rcA'
                     />
                     <div>
                         <h1>Kemal Anıl Güvenç</h1>
@@ -28,22 +28,22 @@ function AboutMe() {
                     </div>
                 </div>
                 <div className='container'>
-                    <p className='textContainer'>Software Developer / Mobile Application Developer / Full Stack Web Developer</p>
-                    <p className='textContainer'> Languages | C/C++, C#, Java, Kotlin, Python, MSSQL, Asp.net, HTML/CSS, Javascript, Dart</p>
-                    <p className='textContainer'> Frameworks | React.js, React Native, Node.js, Flutter</p>
+                    <p>
+                        Languages | C/C++, C#, Java, Kotlin, Python, MSSQL, Asp.net, HTML/CSS, Javascript, Dart
+                        <br />
+                        Frameworks | React.js, React Native, Node.js, Flutter
+                    </p>
                 </div>
-                <div className='row'>
-                    <a className='linkContainer' href="https://www.linkedin.com/in/kemal-anil-guvenc/"><FaLinkedin /> LinkedIn</a>
-                    <a className='linkContainer' href="https://github.com/Anilgvnc"><FaGithub /> GitHub</a>
-                    <a className='linkContainer' href="https://stackoverflow.com/users/22662866/anilgvnc"><FaStackOverflow /> Stack Overflow</a>
-                    <a className='linkContainer' href='https://www.hackerrank.com/profile/anilgvnc'><FaHackerrank /> HackerRank</a>
-                    <a className='linkContainer' href='https://leetcode.com/guvencgrup2/'><SiLeetcode /> Leetcode</a>
+                <div className='rowContainer'>
+                    <a href="https://github.com/Anilgvnc"><FaGithub /> GitHub</a>
+                    <a href="https://stackoverflow.com/users/22662866/anilgvnc"><FaStackOverflow /> Stack Overflow</a>
+                    <a href='https://www.hackerrank.com/profile/anilgvnc'><FaHackerrank /> HackerRank</a>
+                    <a href='https://leetcode.com/guvencgrup2/'><SiLeetcode /> Leetcode</a>
                 </div>
-                <div className='row'>
-                    <a className='linkContainer' href="https://www.instagram.com/anilgvnc/"><FaInstagram /> Instagram</a>
-                    <a className='linkContainer' href="https://twitter.com/Anilgvnc"><FaTwitter /> Twitter</a>
-                </div>
-                <div className='slider' >
+                <div className='rowContainer'>
+                    <a href="https://www.linkedin.com/in/kemal-anil-guvenc/"><FaLinkedin /> LinkedIn</a>
+                    <a href="https://www.instagram.com/anilgvnc/"><FaInstagram /> Instagram</a>
+                    <a href="https://twitter.com/Anilgvnc"><FaTwitter /> Twitter</a>
                 </div>
                 <Slider />
             </div>

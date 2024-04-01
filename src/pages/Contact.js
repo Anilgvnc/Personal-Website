@@ -20,8 +20,8 @@ function Contact() {
                     <br />
                     I will return as soon as possible.
                 </p>
-                <p className='linkContainer'><FiMapPin /> Turkey / İstanbul / Kartal</p>
-                <a className='linkContainer' href='mailto:guvencgrup2@gmail.com'><IoIosMail /> guvencgrup2@gmail.com</a>
+                <p><FiMapPin /> Turkey / İstanbul / Kartal</p>
+                <a href='mailto:guvencgrup2@gmail.com'><IoIosMail /> guvencgrup2@gmail.com</a>
                 <div className='rowLink'>
                     <a href="https://www.linkedin.com/in/kemal-anil-guvenc/"><FaLinkedin /></a>
                     <a href="https://github.com/Anilgvnc"><FaGithub /></a>

@@ -17,15 +17,6 @@ function Slider() {
                 </a>
             </Carousel.Item>
             <Carousel.Item>
-                <a href='https://gelecegiyazanlar.turkcell.com.tr/certificate/dWlkMzAxOTYxY2lkNTY5cWlkMTEwZW5k'>
-                    <Image src='https://media.licdn.com/dms/image/D4D22AQH0wl5AHYUYBg/feedshare-shrink_2048_1536/0/1699349304663?e=1707350400&v=beta&t=fFeQxWWHwnCyNvW6ROzW4NW0UGsugZyYuYWqd9EnHOc' text="Certificate" width='512px' height='384px' rounded />
-                    <Carousel.Caption>
-                        <h3 className='slider-text'>Certificate</h3>
-                        <p className='slider-text'>Web Programming 101:HTML</p>
-                    </Carousel.Caption>
-                </a>
-            </Carousel.Item>
-            <Carousel.Item>
                 <a href='https://academy.patika.dev/tr/certificates/7859d211'>
                     <Image src='https://patika-prod.s3.eu-central-1.amazonaws.com/certificates/7859d211' text="Certificate" width='512px' height='384px' rounded />
                     <Carousel.Caption>

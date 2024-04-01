@@ -15,7 +15,7 @@ const Router = () => {
                 <Navbar bg="dark" data-bs-theme="dark" expand="lg" sticky="top" className="bg-body-tertiary">
                     <Container fluid>
                         <Navbar.Brand>
-                            <Link to="/"><HiMiniCommandLine /> Kemal Anıl Güvenç</Link>
+                            <Link to="/"><HiMiniCommandLine /> KAG</Link>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">

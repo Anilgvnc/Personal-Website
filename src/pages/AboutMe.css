@@ -20,21 +20,25 @@
 
 .bioText {
     font-weight: 500;
-    max-width: 20rem;
+    max-width: 22rem;
     padding: 12px;
     margin: 4px;
 }
 
-.textContainer {
+div.container p {
     display: flex;
-    justify-content: flex-start;
+    text-align: left;
     background-color: #191b20;
     padding: 12px;
     margin: 4px;
     border-radius: 6px;
 }
 
-.linkContainer {
+div.rowContainer {
+    margin: 8px 0px 16px 16px;
+}
+
+div.rowContainer a {
     width: fit-content;
     padding: 8px;
     margin: 12px;
