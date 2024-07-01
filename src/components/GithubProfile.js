@@ -1,6 +1,4 @@
 import { useEffect, useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./GithubProfile.css"
@@ -45,29 +43,32 @@ function GithubProfile() {
     return (
         <div className='App'>
             {spinner === true ? <Loading /> :
-                <Card className='card'>
-                    <Card.Img variant="top" className='img' src={avatarURL} />
-                    <Card.Body>
-                        <Card.Title> {githubUsername} </Card.Title>
-                        <Card.Text> {bio} </Card.Text>
-                        <Card.Text> {company} </Card.Text>
-                        <div className='cardTextSocial'>
-                            <div className='profileCardTextContainer'>
-                                <Card.Text className='cardText'> Public repos</Card.Text>
-                                <Card.Text className='cardText'> {publicRepos} </Card.Text>
+                <div class="github-card">
+                    <div class="top-section">
+                        <a href={url}>
+                            <img src={avatarURL} />
+                        </a>
+                    </div>
+                    <div class="bottom-section">
+                        <span class="title">{githubUsername}</span>
+                        <span class="description">{bio}</span> <br />
+                        <span class="description">{company}</span>
+                        <div class="row row1">
+                            <div class="item">
+                                <span class="big-text">{publicRepos}</span>
+                                <span class="regular-text">Repos</span>
                             </div>
-                            <div className='profileCardTextContainer'>
-                                <Card.Text className='cardText'> Followers</Card.Text>
-                                <Card.Text className='cardText'> {followers} </Card.Text>
+                            <div class="item">
+                                <span class="big-text">{followers}</span>
+                                <span class="regular-text">Followers</span>
                             </div>
-                            <div className='profileCardTextContainer'>
-                                <Card.Text className='cardText'> Following</Card.Text>
-                                <Card.Text className='cardText'> {following} </Card.Text>
+                            <div class="item">
+                                <span class="big-text">{following}</span>
+                                <span class="regular-text">Following</span>
                             </div>
                         </div>
-                        <Button variant="primary" className='button' href={url}>Go to github</Button>
-                    </Card.Body>
-                </Card>
+                    </div>
+                </div>
             }
         </div>
     );

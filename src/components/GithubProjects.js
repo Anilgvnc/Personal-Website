@@ -17,11 +17,23 @@ function GithubProjects() {
                     setSpinner(false);
                     console.log(36, result);
                     const list = result.map((item) => (
-                        <div className='cardTextContainer'>
-                            <a href={item.svn_url}>
-                                {item.name}
-                            </a>
+                        <div class="card">
+                            <div class="main-content">
+                                <div class="header">
+                                    <span></span>
+                                    <span><a href={item.svn_url}>
+                                        {item.name}
+                                    </a></span>
+                                </div>
+                                <p class="heading">
+                                    {item.description}
+                                </p>
+                                <div class="categories">
+                                    <span>{item.language}</span>
+                                </div>
+                            </div>
                         </div>
+
                     ));
                     setRepoData(list);
                 },
@@ -36,8 +48,8 @@ function GithubProjects() {
             {spinner === true ?
                 <Loading />
                 :
-                <div className='card'>
-                    <p> {repoData} </p>
+                <div className="items">
+                    {repoData}
                 </div>
             }
         </div>

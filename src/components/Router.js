@@ -15,16 +15,13 @@ const Router = () => {
                 <Navbar bg="dark" data-bs-theme="dark" expand="lg" sticky="top" className="bg-body-tertiary">
                     <Container fluid>
                         <Navbar.Brand>
-                            <Link to="/"><HiMiniCommandLine /> KAG</Link>
+                            <Link to="/"><HiMiniCommandLine /> anilgvnc</Link>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
                                 <Nav.Link>
                                     <Link to="/AboutMe">About Me</Link>
-                                </Nav.Link>
-                                <Nav.Link>
-                                    <Link to="/Accounts">Accounts</Link>
                                 </Nav.Link>
                                 <Nav.Link>
                                     <Link to="/Projects">Projects</Link>

@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
-import { FaLinkedin, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { IoIosMail } from "react-icons/io";
 import { FiMapPin } from "react-icons/fi";
 
 import './Contact.css'
+import SocialCard from '../components/SocialCard';
 
 function Contact() {
     useEffect(() => {
@@ -22,12 +22,7 @@ function Contact() {
                 </p>
                 <p><FiMapPin /> Turkey / İstanbul / Kartal</p>
                 <a href='mailto:guvencgrup2@gmail.com'><IoIosMail /> guvencgrup2@gmail.com</a>
-                <div className='rowLink'>
-                    <a href="https://www.linkedin.com/in/kemal-anil-guvenc/"><FaLinkedin /></a>
-                    <a href="https://github.com/Anilgvnc"><FaGithub /></a>
-                    <a href="https://www.instagram.com/anilgvnc/"><FaInstagram /> </a>
-                    <a href="https://twitter.com/Anilgvnc"><FaTwitter /></a>
-                </div>
+                <SocialCard />
             </div>
         </div>
     );

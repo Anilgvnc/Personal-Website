@@ -2,25 +2,72 @@
     display: flex;
 }
 
+.items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+@media (max-width: 600px) {
+    .items {
+        grid-template-columns: 1fr;
+    }
+}
+
 .card {
-    background-color: darkslategray;
+    width: 256px;
+    height: 186px;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(#212121, #212121) padding-box,
+        linear-gradient(145deg, transparent 35%, #0a89a8, #252e31) border-box;
+    border: 2px solid transparent;
+    border-radius: 8px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transform-origin: top bottom;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.cardTextContainer {
-    min-width: 256px;
-    min-height: 32px;
-    padding: 8px;
-    margin: 16px;
-    background-color: #282c34;
-    border-radius: 6px;
+.card .main-content {
+    flex: 1;
 }
 
-.cardTextSocial {
+.card .header span:first-child {
+    font-weight: 600;
+    color: #717171;
+    margin-right: 4px;
+}
+
+.card .heading {
+    font-size: 14px;
+    margin: 24px 0 16px;
+    font-weight: 600;
+}
+
+.card .categories {
     display: flex;
-    flex-direction: row;
+    gap: 10px;
+}
+
+.card .categories span {
+    background-color: #0a89a8;
+    padding: 4px 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 50em;
+}
+
+.card .footer {
+    font-weight: 600;
+    color: #717171;
+    margin-right: 4px;
+}
+
+.card:hover {
+    transform: translateY(-10px)
 }
 
 .button {

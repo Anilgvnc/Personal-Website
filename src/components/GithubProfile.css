@@ -2,34 +2,89 @@
     display: flex;
 }
 
-.card {
-    background-color: darkslategray;
+.github-card {
+    width: 300px;
+    border-radius: 20px;
+    background: #1b233d;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.github-card:hover {
+    transform: scale(1.05);
+}
+
+.github-card .top-section {
+    height: 270px;
+    border-radius: 15px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
 
-.img {
-    max-width: fit-content;
-    max-height: fit-content;
+.github-card .top-section img {
+    border-radius: 16px;
 }
 
-.profileCardTextContainer {
-    padding: 8px;
-    margin: 8px;
-    background-color: #282c34;
-    border-radius: 6px;
+.card .top-section .border {
+    border-bottom-right-radius: 10px;
+    height: 60px;
+    width: 128px;
+    background: white;
+    background: #1b233d;
+    position: relative;
+    transform: skew(-40deg);
+    box-shadow: -10px -10px 0 0 #1b233d;
 }
 
-.cardText {
+.github-card .bottom-section {
+    margin-top: 15px;
+    padding: 10px 5px;
+}
+
+.github-card .bottom-section .title {
+    display: block;
+    font-size: 20px;
+    font-weight: bolder;
     color: white;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
-.cardTextSocial {
+.github-card .bottom-section .decription {
+    display: block;
+    font-size: 12px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.github-card .bottom-section .row {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
-.button {
-    margin-top: 10px;
+.github-card .bottom-section .row .item {
+    flex: 30%;
+    text-align: center;
+    padding: 5px;
+    color: rgba(170, 222, 243, 0.721);
+}
+
+.github-card .bottom-section .row .item .big-text {
+    font-size: 12px;
+    display: block;
+}
+
+.github-card .bottom-section .row .item .regular-text {
+    font-size: 9px;
+}
+
+.github-card .bottom-section .row .item:nth-child(2) {
+    border-left: 1px solid rgba(255, 255, 255, 0.126);
+    border-right: 1px solid rgba(255, 255, 255, 0.126);
 }

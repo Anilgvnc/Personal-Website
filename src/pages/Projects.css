@@ -1,0 +1,26 @@
+.projects-screen {
+    background-color: #282c34;
+    text-align: center;
+    min-height: 100vh;
+    padding: 32px;
+    background-color: #282c34;
+    flex-direction: column;
+    display: flex;
+    color: white;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+}
+
+@media (max-width: 600px) {
+    .row-content {
+        flex-direction: column;
+    }
+}
+
+.profile {
+    position: static;
+}

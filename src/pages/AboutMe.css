@@ -34,18 +34,6 @@ div.container p {
     border-radius: 6px;
 }
 
-div.rowContainer {
-    margin: 8px 0px 16px 16px;
-}
-
-div.rowContainer a {
-    width: fit-content;
-    padding: 8px;
-    margin: 12px;
-    background-color: #191b20;
-    border-radius: 6px;
-}
-
 .avatarImg {
     display: flex;
     margin-right: 16px;
@@ -65,4 +53,11 @@ div.rowContainer a {
 .slider {
     max-width: 24rem;
     max-height: 4rem;
+}
+
+@media (max-width: 600px) {
+    .slider {
+        max-width: 22rem;
+        max-height: 3rem;
+    }
 }

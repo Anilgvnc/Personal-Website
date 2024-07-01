@@ -1,9 +1,8 @@
 import { useEffect } from 'react';
-import { FaGithub, FaInstagram, FaTwitter, FaStackOverflow, FaLinkedin, FaHackerrank } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
 import Typewriter from 'typewriter-effect';
 
 import './Home.css';
+import SocialCard from '../components/SocialCard';
 
 function Home() {
     useEffect(() => {
@@ -21,15 +20,7 @@ function Home() {
                     loop: true,
                 }} />
             </div>
-            <div className='rowLink'>
-                <a href="https://www.linkedin.com/in/kemal-anil-guvenc/"><FaLinkedin /></a>
-                <a href="https://github.com/Anilgvnc"><FaGithub /></a>
-                <a href="https://stackoverflow.com/users/22662866/anilgvnc"><FaStackOverflow /></a>
-                <a href='https://www.hackerrank.com/profile/anilgvnc'><FaHackerrank /></a>
-                <a href='https://leetcode.com/guvencgrup2/'><SiLeetcode /></a>
-                <a href="https://www.instagram.com/anilgvnc/"><FaInstagram /> </a>
-                <a href="https://twitter.com/Anilgvnc"><FaTwitter /></a>
-            </div>
+            <SocialCard />
         </div>
     );
 }

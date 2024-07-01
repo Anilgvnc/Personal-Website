@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
-import { FaGithub, FaInstagram, FaTwitter, FaStackOverflow, FaLinkedin, FaHackerrank } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+
 
 import './AboutMe.css';
 import Slider from '../components/Slider';
+import SocialCard from '../components/SocialCard';
 
 
 function AboutMe() {
@@ -27,23 +27,13 @@ function AboutMe() {
                         </p>
                     </div>
                 </div>
+                <SocialCard />
                 <div className='container'>
                     <p>
                         Languages | C/C++, C#, Java, Kotlin, Python, MSSQL, Asp.net, HTML/CSS, Javascript, Dart
                         <br />
                         Frameworks | React.js, React Native, Node.js, Flutter
                     </p>
-                </div>
-                <div className='rowContainer'>
-                    <a href="https://github.com/Anilgvnc"><FaGithub /> GitHub</a>
-                    <a href="https://stackoverflow.com/users/22662866/anilgvnc"><FaStackOverflow /> Stack Overflow</a>
-                    <a href='https://www.hackerrank.com/profile/anilgvnc'><FaHackerrank /> HackerRank</a>
-                    <a href='https://leetcode.com/guvencgrup2/'><SiLeetcode /> Leetcode</a>
-                </div>
-                <div className='rowContainer'>
-                    <a href="https://www.linkedin.com/in/kemal-anil-guvenc/"><FaLinkedin /> LinkedIn</a>
-                    <a href="https://www.instagram.com/anilgvnc/"><FaInstagram /> Instagram</a>
-                    <a href="https://twitter.com/Anilgvnc"><FaTwitter /> Twitter</a>
                 </div>
                 <Slider />
             </div>

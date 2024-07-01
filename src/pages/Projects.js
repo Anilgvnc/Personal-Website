@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 import './Projects.css';
 import GithubProjects from '../components/GithubProjects';
-import Rate from '../components/Rate';
+import GithubProfile from '../components/GithubProfile';
 
 function Projects() {
 
@@ -11,18 +11,12 @@ function Projects() {
     }, [])
 
     return (
-        <div className="App">
-            <header className="App-header">
-                <h1>
-                    Projects
-                </h1>
-            </header>
-            <div>
+        <div className="projects-screen">
+            <div className='row-content'>
+                <div className='profile'>
+                    <GithubProfile />
+                </div>
                 <GithubProjects />
-            </div>
-            <div>
-                <p style={{ color: 'white' }}>Rate my projects</p>
-                <Rate />
             </div>
         </div>
     );
