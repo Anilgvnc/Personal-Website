@@ -1,6 +1,6 @@
-img {
-    max-width: 100%;
-    max-height: 100%;
+.slider-img {
+    max-width: fit-content;
+    max-height: fit-content;
 }
 
 .slider-text {
@@ -9,9 +9,29 @@ img {
     font-weight: 800;
 }
 
+.slider {
+    max-width: 512px;
+    max-height: 328px;
+    margin-top: 32px;
+    margin: 16px;
+}
+
 @media (max-width: 600px) {
-    img {
+    .slider {
+        overflow: auto;
+        max-width: 356px;
+        max-height: 156px;
+        margin: none;
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 420px) {
+    .slider {
+        overflow: auto;
         max-width: 256px;
-        max-height: 256px;
+        max-height: 128px;
+        margin: none;
+        margin-top: 16px;
     }
 }

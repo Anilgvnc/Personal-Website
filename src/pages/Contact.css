@@ -3,10 +3,42 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: darkslategray;
+
+
+    border-radius: 20px;
+    background: #1b233d;
     padding: 24px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.contactContainer:hover {
+    transform: scale(1.05);
+}
+
+.contactContainer .top-section {
+    height: 270px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.contactContainer .top-section img {
     border-radius: 16px;
-    color: white;
+}
+
+.contactContainer .top-section .border {
+    border-bottom-right-radius: 10px;
+    height: 60px;
+    width: 128px;
+    background: white;
+    background: #1b233d;
+    position: relative;
+    transform: skew(-40deg);
+    box-shadow: -10px -10px 0 0 #1b233d;
 }
 
 .contactHeader {

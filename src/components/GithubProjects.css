@@ -4,19 +4,14 @@
 
 .items {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
 }
 
-@media (max-width: 600px) {
-    .items {
-        grid-template-columns: 1fr;
-    }
-}
 
 .card {
-    width: 256px;
-    height: 186px;
+    max-width: 358px;
+    max-height: 186px;
     padding: 20px;
     color: white;
     background: linear-gradient(#212121, #212121) padding-box,
@@ -72,4 +67,16 @@
 
 .button {
     margin-top: 10px;
+}
+
+@media (max-width: 1400px) {
+    .items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .items {
+        grid-template-columns: 1fr;
+    }
 }

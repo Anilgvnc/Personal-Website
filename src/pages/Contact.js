@@ -12,6 +12,9 @@ function Contact() {
     return (
         <div className="App">
             <div className='contactContainer'>
+                <div class="top-section">
+                    <img src='https://media.licdn.com/dms/image/D4D16AQEu_6wS08Ks0g/profile-displaybackgroundimage-shrink_350_1400/0/1721461242418?e=1726704000&v=beta&t=u0LO_mnLYfMeJbBZ3Kfy5M9_6vxfNuCDkgx0QsB6xbw' />
+                </div>
                 <div className='contactHeader'>
                     <h1>Contact me</h1>
                 </div>

@@ -12,7 +12,7 @@ const Router = () => {
     return (
         <>
             <nav>
-                <Navbar bg="dark" data-bs-theme="dark" expand="lg" sticky="top" className="bg-body-tertiary">
+                <Navbar bg="dark" data-bs-theme="dark" expand="lg" fixed="top" className="bg-body-tertiary">
                     <Container fluid>
                         <Navbar.Brand>
                             <Link to="/"><HiMiniCommandLine /> anilgvnc</Link>

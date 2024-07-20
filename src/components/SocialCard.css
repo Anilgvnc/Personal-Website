@@ -6,14 +6,9 @@
     align-items: center;
     justify-content: center;
     padding: 25px 25px;
-    gap: 16px;
+    gap: 12px;
 }
 
-@media (max-width: 600px) {
-    .social-card {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
 
 /* for all social containers*/
 .socialContainer {
@@ -96,5 +91,17 @@
     100% {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    .social-card {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .social-card {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
