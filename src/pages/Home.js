@@ -3,13 +3,16 @@ import Typewriter from 'typewriter-effect';
 
 import './Home.css';
 import SocialCard from '../components/SocialCard';
+import { Helmet } from 'react-helmet';
 
 function Home() {
-    useEffect(() => {
-        document.title = "Kemal Anıl Güvenç | Home";
-    }, [])
     return (
         <div className="App">
+            <Helmet>
+                <title>
+                    Kemal Anıl Güvenç
+                </title>
+            </Helmet>
             <div className='homeHeader'>
                 <h1>Kemal Anıl Güvenç</h1>
             </div>

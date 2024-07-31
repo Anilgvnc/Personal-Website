@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Helmet } from "react-helmet";
 
 
 import './AboutMe.css';
@@ -8,10 +9,13 @@ import SocialCard from '../components/SocialCard';
 
 function AboutMe() {
     useEffect(() => {
-        document.title = "Kemal Anıl Güvenç | About Me";
+        document.title = "About Me";
     }, [])
     return (
         <div className="App">
+            <Helmet>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+            </Helmet>
             <div className='about-content' >
                 <div className='userCard'>
                     <div className='userContainer'>
@@ -37,6 +41,14 @@ function AboutMe() {
                             <div class="item">
                                 <span class="big-text">Frameworks</span>
                                 <span class="regular-text">React.js, React Native, ASP.NET, .NET, Flutter</span>
+                            </div>
+                        </div>
+                        <div className='row row1'>
+                            <div class="item">
+                                <span class="big-text">Badges</span>
+                                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="af06db7a-5ac4-4fa4-a7e7-7aa0c6fe7cd0" data-share-badge-host="https://www.credly.com"></div>
+                                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="57b63235-e327-421e-a2e5-87c1e9355791" data-share-badge-host="https://www.credly.com"></div>
+                                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e88e4e6b-d74f-4fc8-9f2f-3993eb5e840a" data-share-badge-host="https://www.credly.com"></div>
                             </div>
                         </div>
                     </div>

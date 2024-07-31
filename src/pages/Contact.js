@@ -7,7 +7,7 @@ import SocialCard from '../components/SocialCard';
 
 function Contact() {
     useEffect(() => {
-        document.title = "Kemal Anıl Güvenç | Contact me";
+        document.title = "Contact me";
     }, [])
     return (
         <div className="App">
